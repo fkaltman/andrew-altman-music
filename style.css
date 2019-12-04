@@ -1,4 +1,32 @@
-.hero-image {
-  width: 90vw;
-  margin: 0 auto;
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(
+    rgba(24, 24, 24, 0.3),
+    rgba(63, 19, 8, 0.3)
+    ), url('./namroud-gorguis-FZWivbri0Xk-unsplash.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.name {
+  color: rgb(44, 36, 37);
+  padding-top: 37vh;
+  font-family: 'Rock Salt', sans-serif;
+  font-size: 7em;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 40px;
+  text-align: center;
+  color: rgba(107, 102, 102, 0.5);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
 }
