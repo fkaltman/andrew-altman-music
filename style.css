@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url('./andrew_tape.png');
+  background-image: url('./images/andrew_tape.png');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,16 +14,18 @@ body {
 }
 
 .social {
-margin: 5vh 0 0 92vw;
+margin: 5vh 0 0 80vw;
 }
 
-/* .name {
-  color: rgb(44, 36, 37);
-  padding-top: 38vh;
-  font-family: 'Rock Salt', sans-serif;
-  font-size: 2em;
-  text-align: center;
-} */
+iframe {
+  bottom: 2.5%;
+  left: 2.5%;
+  right: 2.5%;
+  width: 90%;
+  height: 6%;
+  position: absolute;
+  z-index: 3;
+}
 
 .footer {
   width: 100%;
