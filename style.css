@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url('./images/andrew_tape.png');
+  background-image: url('./images/kai-oberhauser-unsplash.jpg');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,15 +14,15 @@ body {
 }
 
 .social {
-margin: 5vh 0 0 80vw;
+margin: 5vh 0 0 90vw;
 }
 
 iframe {
   bottom: 2.5%;
   left: 2.5%;
   right: 2.5%;
-  width: 90%;
-  height: 6%;
+  width: 94%;
+  height: 80px;
   position: absolute;
   z-index: 3;
 }
