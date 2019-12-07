@@ -17,6 +17,13 @@ body {
 margin: 5vh 0 0 90vw;
 }
 
+main {
+  margin: -12vh 0 0 5vw;
+  color: rgba(126, 122, 122, 0.5);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+}
+
 iframe {
   bottom: 2.5%;
   left: 2.5%;
@@ -32,7 +39,7 @@ iframe {
   position: fixed;
   bottom: 10px;
   text-align: center;
-  color: rgba(78, 76, 76, 0.5);
+  color: rgba(126, 122, 122, 0.5);
   font-family: 'Bebas Neue', cursive;
   font-size: .75em;
 }
