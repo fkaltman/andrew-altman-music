@@ -43,3 +43,19 @@ iframe {
   font-family: 'Bebas Neue', cursive;
   font-size: .75em;
 }
+
+/* /////// Media Queries ////////*/
+
+@media only screen and (min-width: 300px){
+  body {
+    background-image: url('./images/andrews_site_media_background.png');
+    /* background-image: url('./images/andrews_site_media_background.png'); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* min-height: 100vh; */
+    margin: 0;
+  }
+}
+
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape){} */
