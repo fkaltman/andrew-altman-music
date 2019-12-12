@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url('./images/phil-sheldon-tone-unsplash.jpg');
+  background-image: url('./images/phil-sheldon-tone-medium.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,14 +47,9 @@ iframe {
 /* /////// Media Queries ////////*/
 
 @media only screen and (min-width: 300px) and (max-width: 900px){
-  /* body {
-    background-image: url('./images/dkteal_andrew_amp_media.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    padding-left: -60px;
-  } */
+  body {
+    background-image: url('./images/phil-sheldon-tone-short.jpg');
+  }
 
   .social {
     margin-left: 80vw;
