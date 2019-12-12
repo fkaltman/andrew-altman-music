@@ -46,19 +46,25 @@ iframe {
 
 /* /////// Media Queries ////////*/
 
-/* @media only screen and (min-width: 300px){
-  body {
+@media only screen and (min-width: 300px) and (max-width: 900px){
+  /* body {
     background-image: url('./images/dkteal_andrew_amp_media.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     padding-left: -60px;
-  }
+  } */
 
   .social {
-    margin: 5vh 0 0 60vw;
+    margin-left: 80vw;
     }
-} */
+}
+
+@media only screen and (max-width: 400px) {
+  .social {
+    margin-left: 70vw;
+    }
+}
 
 /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape){} */
