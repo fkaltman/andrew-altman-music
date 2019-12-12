@@ -4,11 +4,11 @@ html {
 }
 
 body {
-  background-image: url('./images/dkteal_andrew_amp.png');
+  background-image: url('./images/pedals.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 90vh;
   margin: 0;
 }
 
@@ -46,16 +46,19 @@ iframe {
 
 /* /////// Media Queries ////////*/
 
-@media only screen and (min-width: 300px){
+/* @media only screen and (min-width: 300px){
   body {
-    background-image: url('./images/andrews_site_media_background.png');
-    /* background-image: url('./images/andrews_site_media_background.png'); */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* min-height: 100vh; */
-    margin: 0;
+    background-image: url('./images/dkteal_andrew_amp_media.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: -60px;
   }
-}
+
+  .social {
+    margin: 5vh 0 0 60vw;
+    }
+} */
 
 /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape){} */
